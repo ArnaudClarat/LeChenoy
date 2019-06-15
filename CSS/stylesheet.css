@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+header{
+    background-image: url("../Pictures/tall-field-plant-growth.jpg");
+    background-size: cover;
+    background-position:center 55%;
+    display:block;
+    height: auto;
+    padding-left:1em;
+    margin: auto;
+    border: green solid 2px;
+    z-index: 50;
+    font-family: 'Indie Flower', cursive;
+    color: #ffc803;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+header h1{
+    font-size: 3em;
+}
+
+header h2{
+    font-size: 2em;
+}
+
+body{
+    background-image: url("../Pictures/nature-background.jpg");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#corps{
+    font-family: 'Indie Flower', cursive;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin-top: 0.5%;
+    width: auto;
+}
+
+
+nav{
+    padding: 0 0.5em;
+    border: rgba(127, 127, 127, 0.75) solid 2px;
+    font-size: 2em;
+    float: left;
+}
+
+ul{
+    padding:0;
+}
+
+li{
+    display:block;
+    list-style-type:none;
+}
+
+section{
+    padding: 0 0.5em;
+    border: rgba(127, 127, 127, 0.75) solid 2px;
+    float: left;
+    width: 75%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    font-size: 1.25em;
+}
+/*
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+*/
+p{
+    width: auto;
+}
+
+img{
+    width: 25%;
+}
