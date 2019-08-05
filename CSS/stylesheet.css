@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lemonada:300,400,600,700&display=swap&subset=latin-ext");
 header{
     background-image: url("../Pictures/tall-field-plant-growth.jpg");
     background-size: cover;
@@ -9,7 +9,8 @@ header{
     margin: auto;
     border: green solid 2px;
     z-index: 50;
-    font-family: 'Indie Flower', cursive;
+    font-family: Lemonada, cursive;
+    font-weight: 300;
     color: #ffc803;
     text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 }
@@ -42,17 +43,16 @@ nav{
     float: left;
 }
 
-ul{
+nav ul{
     padding:0;
 }
 
-li{
+.MenuItem{
     display:block;
     list-style-type:none;
 }
 
 section{
-    padding: 0 0.5em;
     border: rgba(127, 127, 127, 0.75) solid 2px;
     float: left;
     width: 75%;
@@ -60,11 +60,23 @@ section{
     margin-right: 0.5%;
     font-size: 1.25em;
 }
-/*
+
+div{
+     : auto
+}
+
+section div:first-child{
+    margin: 1%;
+}
+
+div p:first-of-type{
+    margin-top: 0;
+}
+
 .right{
     float: right;
 }
-
+/*
 .left{
     float: left;
 }
@@ -74,5 +86,6 @@ p{
 }
 
 img{
-    width: 25%;
+    width: 35%;
+    border: rgba(0, 51, 0, 0.75) solid 2px;
 }
