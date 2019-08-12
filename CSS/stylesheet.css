@@ -65,7 +65,7 @@ div{
      : auto
 }
 
-section div:first-child{
+section div{
     margin: 1%;
 }
 
@@ -76,16 +76,17 @@ div p:first-of-type{
 .right{
     float: right;
 }
-/*
+
 .left{
     float: left;
 }
-*/
+
 p{
     width: auto;
 }
 
 img{
-    width: 35%;
+    width: 20%;
     border: rgba(0, 51, 0, 0.75) solid 2px;
+    margin: 0 1% 1% 0;
 }
