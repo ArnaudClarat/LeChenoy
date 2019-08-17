@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lemonada:300,400,600,700&display=swap&subset=latin-ext");
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap');
 header{
     background-image: url("../Pictures/tall-field-plant-growth.jpg");
     background-size: cover;
@@ -20,7 +21,6 @@ header h1{
 header h2{
     font-size: 2em;
 }
-
 h3{
     font-family: Lemonada, cursive;
     font-weight: 300;
@@ -31,26 +31,55 @@ h3{
     margin: 0;
     text-decoration: underline black;
 }
-
 h4{
     color: #ffc803;
         text-shadow: #555555 1px 1px, #555555 -1px 1px, #555555 -1px -1px, #555555 1px -1px;
 }
-
 body{
     background-image: url("../Pictures/nature-background.jpg");
     background-repeat: no-repeat;
     z-index: 1;
 }
-.prix{
-    display:block;
-    list-style-type:none;
-}
 #corps{
-    font-family: 'Indie Flower', cursive;
     background-color: rgba(255, 255, 255, 0.25);
-    margin-top: 0.5%;
+    margin-top: 0.5em;
     width: auto;
+    font-family: 'Roboto Slab', serif;
+}
+form {
+    margin: 1em auto;
+    width: 500px;
+    padding: 1em;
+    border: 3px solid #303;
+    border-radius: 3em;
+}
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+input, textarea {
+    font-family: 'Roboto Slab', serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #303;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+.button {
+    padding-left: 100px;
+}
+button {
+    margin-left: .3em;
+}
+.form{
+    margin:0 auto;
 }
 nav{
     padding: 0 0.5em;
@@ -61,11 +90,6 @@ nav{
 nav ul{
     padding:0;
 }
-.MenuItem{
-    display:block;
-    list-style-type:none;
-    font-size: 0.9em;
-}
 section{
     border: rgba(127, 127, 127, 0.75) solid 2px;
     float: left;
@@ -74,7 +98,6 @@ section{
     margin-right: 0.5%;
     font-size: 1.25em;
 }
-
 section div{
     margin: 1%;
 }
@@ -82,27 +105,38 @@ section div{
 div p:first-of-type{
     margin-top: 0;
 }
-
+.MenuItem{
+    display:block;
+    list-style-type:none;
+    font-size: 0.9em;
+}
 .right{
     float: right;
 }
-
 .left{
     float: left;
     margin-left: 0;
 }
-
-p{
-    width: auto;
-}
-
 img{
     width: 26%;
     border: rgba(0, 51, 0, 0.75) solid 2px;
     margin: 0.5em;
 }
+table{
+    border: 3px solid #330033;
+    border-collapse: collapse;
+}
+td{
+    border: 2px solid #330033;
+    border-collapse: collapse;
+    padding: 0.2em 0.5em;
+}
+.prix{
+}
 .chambre{
     width: 25%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .terroir{
     width: 30%;
