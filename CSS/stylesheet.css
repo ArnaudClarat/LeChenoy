@@ -104,3 +104,18 @@ img{
 .chambre{
     width: 25%;
 }
+.terroir{
+    width: 30%;
+    display: inline-block;
+    margin-right: 1%;
+    box-sizing: border-box;
+}
+.imgterroir{
+    width: 65%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.imgterroir img{
+    width: 40%;
+    margin-right: 0;
+}
